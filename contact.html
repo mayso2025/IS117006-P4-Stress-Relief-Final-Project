@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: Mike Gabriel Ayson, IS117-006, Spring 2023 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Destress</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/contact.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/icon.ico">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">Our Resources To Help You!</a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tips.html">Tips and Tricks!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us!</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Venting
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="venting.html">Venting Tips</a>
+                                <a class="dropdown-item" href="vent_box.html">Venting Box</a>
+                                
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+         <div class="cards"> 
+                    <div id="first"> 
+                            
+                        <p> 
+                            <meta name="viewport" content="width=device-width, initial-scale=1">
+                            <style>
+                            .card {
+                            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                            transition: 0.3s;
+                            width: 15vw;
+                            float: left;
+                            min-width: 100px;
+
+                            
+                            }
+
+                            .card:hover {
+                            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                            }
+
+                            .container {
+                            padding: 2px 16px;
+                            }
+                            
+                            </style>
+                            <div class="card">
+                                <h4> Our lead stress relief expert</h4> <!-- Bootstrap card -->
+                                <img src="images/bruh3.jpg" alt="Avatar" style="width:75%">
+                                <div class="container">
+                                <h5><b>Crew Mate</b></h5>
+                                <p class="putLeft">Astronaught, OSHA Certified, leading therapist</p>
+                                <p> Enjoys: Vents, nuclear reactors, electric wiring</p>
+                                <p>Phone: 235-124-4124, Email: notsus@gmail.com </p>
+                                </div>
+                            </div>
+                        </p> 
+                    </div>
+                    
+                
+                
+                    <div id="second"> 
+                                
+                                <p> 
+                                    <meta name="viewport" content="width=device-width, initial-scale=1">
+                                    <style>
+                                    .card {
+                                    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                                    transition: 0.3s;
+                                    width: 15vw;
+                                    min-width: 100px;
+                                    
+                                    }
+
+                                    .card:hover {
+                                    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                                    }
+
+                                    .container {
+                                    padding: 2px 16px;
+                                    }
+                                   
+                                    </style>
+                                    <div class="card">
+                                        <h4> Our lead designer</h4> <!-- Bootstrap card -->
+                                        <img src="images/bruh1.jpg" alt="Avatar" style="width:75%">
+                                        <div class="container">
+                                        <h5><b>Mike Gabriel Aysom</b></h5>
+                                        <p class="putLeft">NJIT Sophmore, IT Major, Web Dev Specialist in training</p>
+                                        <p> Enjoys: Video games, theater, volleyball, video editing, photography</p>
+                                        <p>Phone: 141-124-1241, Email: maa67@school.com</p>
+                                        </div>
+                                    </div>
+                                </p> 
+                    </div>
+                    
+
+                    
+         </div>   
+        <div class="container">
+          <div class="row">
+            <form action="">
+
+                <div class="form-group">
+                    <label for="firstname">Your Name:</label>
+                    <input type="text" class="form-control" id="firstname"
+                           placeholder="Your name" name="firstname">
+                </div>
+
+                <div class="form-group">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" class="form-control" id="firstname"
+                           placeholder="First name of contact" name="firstname">
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" class="form-control" id="lastname"
+                           placeholder="Last name of contact" name="lastname">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email"
+                           placeholder="Email of contact" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Contact Telephone:</label>
+                    <input type="tel" class="form-control" id="email"
+                           placeholder="Phone Number of contact" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Date:</label>
+                    <input type="date" class="form-control" id="email"
+                           placeholder="Enter todays date" name="email">
+                </div>
+
+                <div class="form-group">
+                    
+                    <label id="top"> Comments: </label>
+                    <textarea rows="1" cols="30" placeholder="Reason for contact" name="lastname"></textarea>
+                          
+                </div>
+
+                <div class="form-group"> 
+                    <button type="submit" class="btn btn-primary">Send Contact Request</button> 
+                </div>
+                
+            </form>
+        </row>
+</div>
+        </div>
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Mike Gabriel Ayson, 2023 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+        
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>

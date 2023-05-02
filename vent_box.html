@@ -1,0 +1,117 @@
+<!-- DEVELOPER: Mike Gabriel Ayson, IS117-006, Spring 2023 -->
+<!DOCTYPE html>
+<!-- DEVELOPER: Mike Gabriel Ayson, IS117-006, Spring 2023 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Destress</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/ventBox.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/icon.ico">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Brand -->
+                <a class="navbar-brand" href="#">Our Resources To Help You!</a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tips.html">Tips and Tricks!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us!</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Venting
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="venting.html">Venting Tips</a>
+                                <a class="dropdown-item" href="vent_box.html">Venting Box</a>
+                                
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div> 
+                
+            </div>
+        <div class="container">
+          <div class="row">
+            <p id="intro"> 
+                This page gives you access to a giant text box that lets you just vent out all unnecesary frustation. Whether that be wanting to said a very mean message to someone who annoys you, 
+                All that you send to that text one hitting the submit button is immediately deleted, and it is saved KNOWHERE. Just insert the date, the title of your vent session, and begin typing in the box. 
+            </p>
+
+            <p> 
+                If you have questions or not sure how to vent, we would recomend you visit the venting tips page for more insight 
+            </p>
+            <form action="">
+                <div class="form-group">
+                    <label for="firstname">Date:</label>
+                    <input type="date" class="date_input" id="date"
+                           placeholder="Please enter date of entry">
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Venting Title </label>
+                    <input type="text" class="vent_title" id="title"
+                           placeholder="Topic" name="lastname">
+                </div>
+                <div class="form-group">
+                    
+                    <textarea id="box" name="vent_box" placeholder="This is the area to vent out everything that bothered you, none of what you enter will be saved" rows="8" cols="100"> </textarea>
+                          
+                </div>
+                <div> 
+                    <button type="reset" class="btn btn-primary">Submit</button>
+                </div>
+                <img id="benson" src="images/funny.jpg" alt="decoration">
+                
+            </form>
+        </row>
+</div>
+        </div>
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Mike Gabriel Ayson, 2023 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+     
+        
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+li img {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  ul .card {
+    float: left;
+  }
+  .cards ul { /* found on w3schools */ 
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+    background-color: #333333;
+  }
+
+  .footer span {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    font-size: 1rem;
+}
+nav  {
+    background-color: aqua;
+}
+
+footer span { 
+    font-size: 10em;
+}
+.slideShow{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    width: 50%;
+}
+.w3-right{
+    float: right;
+}
+.putLeft{
+    float: left;
+}
+
+#intro {
+    
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  textarea { vertical-align: top; } /* found on stackoverflow */ 
+  div.container{
+    text-align: center;
+  }
+  #benson{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  #intro 
+  {
+    color: #6F73D2;
+    padding-left: 0;
+    padding-right: 0;
+    border: #119DA4;
+    border-style: solid;
+    font-size: 150%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  body {
+    background-color: #AEECEF;
+  }

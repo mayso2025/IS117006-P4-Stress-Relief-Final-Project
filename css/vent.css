@@ -1,0 +1,81 @@
+.footer span {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+nav  {
+    background-color: aqua;
+}
+
+footer span { 
+    font-size: 1em;
+}
+.slideShow{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    width: 50%;
+    float: left; 
+}
+.w3-right{
+    float: right;
+}
+.putLeft{
+    float: left;
+}
+
+.col-3 p 
+{
+    text-align: center;
+    display: block;
+}
+.swapButton{
+    margin-left: auto;
+    margin-right: auto; 
+}
+ 
+textarea { vertical-align: top; } /* found on stackoverflow */ 
+
+.listImages{
+    float: left;
+    
+}
+ul{ /*found on w3schools */ 
+
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+div.col-4{
+    text-align: center;
+    float: right;
+    
+}
+h6 {
+    color: #6F73D2;
+    background-color: #3066BE ;
+    padding-left: 0;
+    padding-right: 0;
+    border: #119DA4;
+    border-style: solid;
+    font-size: 200%;
+}
+
+div.center
+{
+    text-align: center;
+}
+
+div.center p
+{
+    text-align: center;
+}
+body {
+    background-color: #AEECEF;
+  }

@@ -1,0 +1,46 @@
+li img {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    position: relative;
+  }
+
+  .cards ul {
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+    background-color: #333333;
+  }
+
+  .footer span {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 1rem;
+}
+nav  {
+    background-color: aqua;
+}
+
+
+#intro {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  textarea { vertical-align: top; } /* found on stackoverflow */ 
+  body {
+    background-color: #AEECEF;
+  }
+
+  
